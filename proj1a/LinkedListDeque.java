@@ -14,6 +14,7 @@ public class LinkedListDeque<T> {
             item = i;
             next = null;
         }
+        
         public Node(Node<T> p, T i) {
             prev = p;
             item = i;
